@@ -1,0 +1,122 @@
+﻿
+/* Общие стили страниц */ 
+
+html { 
+	height: 100%; 
+	}
+	
+body {
+	height: 100%;
+    margin: 0; 
+   }
+   
+h1 {
+    font-size: 30px; 
+    margin: 0;
+    color: #244496;  
+   }
+   
+h2 {
+	font-size: 16px; 
+    margin: 0; 
+    color: #244496; 
+   }
+   
+h3 {
+	font-size: 12px; 
+    margin: 0; 
+    color: #244496; 
+   }
+   
+#p_prldr{
+position: fixed;
+left: 0;
+top: 0;
+right:0;
+bottom:0;
+background: #244496;
+z-index: 30;}
+ 
+.contpre small{font-size:25px;}
+ 
+.contpre{
+width: 250px;
+height: 100px;
+position: absolute;
+left: 50%;top: 48%;
+margin-left:-125px;
+margin-top:-75px;
+color:#fff;
+font-size:40px;
+letter-spacing:-2px;
+text-align:center;
+line-height:35px;}
+ 
+#p_prldr .svg_anm {
+position: absolute;
+width: 41px;
+height: 41px;
+background: url(images/oval.svg) center center no-repeat;
+background-size:41px;    
+margin: -16px 0 0 -16px;}
+
+#header {
+  	padding-bottom: 10px;
+	background:#244496;
+	text-align: center;
+	width: 100%;
+	height:126px;
+	box-shadow: 0 8px 4px -4px rgba(0, 0, 0, .2);
+   }
+  
+#news{
+	border: 2px dashed rgba(24, 44, 96, .6);	
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+	box-shadow: 0 1px 4px rgba(0, 0, 0, .3),
+				-4px 0 8px 0px rgba(0, 0, 0, .3),
+				4px 0 8px 0px rgba(0, 0, 0, .3),
+				0 0 40px rgba(0, 0, 0, .1) inset;
+	}
+
+#newsimg {
+	opacity: 0.7;
+	margin-left:10px;
+	margin-top:5px;
+	float:left;
+	transition: all 0.5s;
+	}
+	
+#newsimg:hover {
+	opacity: 1;
+	}
+
+#content{
+width: 100%;
+text-align: center;
+}
+
+.sign {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+		  margin-bottom:15px;
+}
+.sign__word {
+  font-size: 3rem;
+  text-align: center;
+  line-height: 1;
+  color: #c6e2ff;
+  text-shadow: 0 0 6px rgba(202, 228, 225, 0.98), 0 0 30px rgba(22, 44, 96, 0.42), 0 0 12px rgba(30, 132, 242, 0.58), 0 0 22px rgba(30, 132, 242, 0.84), 0 0 38px rgba(30, 132, 242, 0.88), 0 0 60px #1e84f2;
+}

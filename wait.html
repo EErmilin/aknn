@@ -1,0 +1,68 @@
+﻿<!doctype html>
+<html>
+
+<head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <title>Академ клуб - Конференция</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+    
+    <script src="/js/jquery-3.3.1.min.js"></script>
+    <script src="/js/jsmy.js"></script>
+    <script src="/js/loadtopfot.js"></script>
+    <script src="/js/loadmenuconf.js"></script>
+    
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script type="text/javascript" src="https://vk.com/js/api/openapi.js?167"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="/js/load.js"></script>
+
+</head>
+<script>
+    function work() {
+        const currentUrl = window.location.href;
+        let text = 'Информация в процессе обновления';
+
+        if (currentUrl.includes('program')) {
+            text = 'Программа конференции 2023 будет опубликована 25 марта';
+        }
+        
+        let title = document.getElementById("title")
+        title.innerHTML += text;
+
+    }
+    document.addEventListener('DOMContentLoaded', work);
+</script>
+
+<body>
+      <div id="p_prldr">
+        <div class="contpre"><span class="svg_anm"></span><br>Подождите<br><small>идет загрузка</small></div>
+    </div>
+    <div id="maincenter">
+        <div id="maincenter2">
+            <div id="header">
+                <nav id="primary_nav_wrap"></nav>
+                <a href="/"><img id="shapka" src="images/shapka.png" border="0" /></a>
+            </div>
+            <nav class="side-nav"></nav>
+            <div id="contentpageleto" style="min-height:1150px;">
+                <div class="jumbotron">
+                    <h1 id="title"></h1>
+
+                </div>
+            </div>
+        </div>
+        <div id="footer"></div>
+    </div>
+</body>
+
+</html>
