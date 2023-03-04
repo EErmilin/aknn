@@ -10,7 +10,7 @@ $(function() {
             <p>
                 <a href="/CONF_SHUI/info/infoconf-2023/Инф.письмо_Конференция ШЮИ-2023.pdf" target="_blank" style="margin-top: 8px;" class="btn btn-outline-primary">Информация</a>
                 <a href="/CONF_SHUI/registrationconf.html" style="margin-top: 8px;" class="btn btn-outline-danger">Регистрация научного конкурса</a>
-                 
+                <a href="/CONF_SHUI/registrationtv.html" style="margin-top: 8px;" class="btn btn-outline-danger">Регистрация творческого конкурса</a>
             </p>
         </div>`;
     }
