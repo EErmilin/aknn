@@ -9,8 +9,8 @@ $(function() {
             Приглашаем принять участие в ежегодной Региональной естественнонаучной конференции «Школа юного исследователя»!<br> В программе конференции конкурс исследовательских работ и творческий конкурс "Очарование науки".
             <p>
                 <a href="/CONF_SHUI/info/infoconf-2023/Инф.письмо_Конференция ШЮИ-2023.pdf" target="_blank" style="margin-top: 8px;" class="btn btn-outline-primary">Информация</a>
-                <a href="/CONF_SHUI/registrationconf.html" style="margin-top: 8px;" class="btn btn-outline-danger">Регистрация научного конкурса</a>
-                <a href="/CONF_SHUI/registrationtv.html" style="margin-top: 8px;" class="btn btn-outline-danger">Регистрация творческого конкурса</a>
+                <a href="/CONF_SHUI/registrationconfpedagogi.html" style="margin-top: 8px;" class="btn btn-outline-danger">Регистрация педагогической секции</a>
+                <a class="btn btn-outline-danger" style="margin-top: 8px;" target="_blank" href="/CONF_SHUI/confs/conf2023/Финал_конфренции_ШЮИ_2023_список_участников_3.pdf" target="_blank"><span>Финалисты научного конкурса</span></a>
             </p>
         </div>`;
     }
